@@ -1,0 +1,51 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.papular-heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-weight: 600;
+  font-size: 40px;
+}
+.menu-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 36%;
+  list-style: none;
+  padding-left: 0px;
+}
+.Repos-container {
+  padding-left: 0;
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.failure-view-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 18px;
+}
+.failure-pic {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .menu-buttons-container {
+    width: 100%;
+    padding: 20px;
+  }
+  .failure-pic {
+    width: 55%;
+  }
+}
